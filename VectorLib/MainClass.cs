@@ -5,7 +5,9 @@ public class MainClass
 
 	public static void Main()
 	{
-        Console.WriteLine("hello");
+        Vector a = new Vector(0.5, 2.0);
+        a.WriteVector();
+
         Console.ReadLine();
 	}
 }

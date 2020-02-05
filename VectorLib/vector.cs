@@ -9,6 +9,11 @@ public class Vector
     {
        x = x_;
        y = y_;
+    }
 
+    public void WriteVector()
+    {
+        Console.Write("(" + x + ", ");
+        Console.Write(y + ")");
     }
 }
